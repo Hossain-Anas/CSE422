@@ -63,7 +63,7 @@ path, weight = a_star(start, goal)
 
 if path or weight is not None:
     print(f"Path : {'->'.join(path)}")
-    print(f"Total Distance: {weight}")
+    print(f"Total Distance: {weight} km")
 
 else:
     print("NO PATH FOUND")
